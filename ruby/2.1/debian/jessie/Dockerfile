@@ -1,4 +1,4 @@
-FROM 411719562396.dkr.ecr.us-east-1.amazonaws.com/debian-stretch-buildpack
+FROM qixtand/debian-jessie-buildpack
 
 ENV RUBY_MAJOR 2.1
 ENV RUBY_VERSION 2.1.0
@@ -25,7 +25,6 @@ RUN apt-get update \
         && make install \
         && apt-get purge -y --auto-remove bison libgdbm-dev ruby \
         && gem update --system $RUBYGEMS_VERSION \
-        && rm /tmp/ruby-2.1-patch \
         && rm -r /usr/src/ruby
 
 # install things globally, for great justice

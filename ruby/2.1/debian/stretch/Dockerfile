@@ -1,4 +1,4 @@
-FROM 411719562396.dkr.ecr.us-east-1.amazonaws.com/debian-stretch-buildpack
+FROM qixtand/debian-stretch-buildpack
 
 ENV RUBY_MAJOR 2.1
 ENV RUBY_VERSION 2.1.0
