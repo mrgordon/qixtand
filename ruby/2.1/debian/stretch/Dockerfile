@@ -27,7 +27,7 @@ RUN apt-get update \
         && make -j"$(nproc)" \
         && make install \
         && apt-get purge -y --auto-remove bison libgdbm-dev ruby \
-        && apt-get install -y libssl1.1-dev
+        && apt-get install -y libssl-dev \
         && rm -rf /var/lib/apt/lists/* \
         && gem update --system $RUBYGEMS_VERSION \
         && rm /tmp/ruby-2.1-patch \
