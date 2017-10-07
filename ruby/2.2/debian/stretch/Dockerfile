@@ -1,15 +1,12 @@
 FROM qixtand/debian-stretch-buildpack
 
 ENV RUBY_MAJOR 2.2
-ENV RUBY_VERSION 2.2.3
-ENV RUBY_DOWNLOAD_SHA256 df795f2f99860745a416092a4004b016ccf77e8b82dec956b120f18bdc71edce
+ENV RUBY_VERSION 2.2.4
+ENV RUBY_DOWNLOAD_SHA256 b6eff568b48e0fda76e5a36333175df049b204e91217aa32a65153cc0cdcb761
 ENV RUBYGEMS_VERSION 2.6.13
 
 # skip installing gem documentation
 RUN echo 'install: --no-document\nupdate: --no-document' >> "$HOME/.gemrc"
-
-# Bring in patch
-COPY ruby-2.2-patch /tmp
 
 # some of ruby's build scripts are written in ruby
 # we purge this later to make sure our final image uses what we just built
@@ -21,7 +18,6 @@ RUN apt-get update \
         && tar -xzf ruby.tar.gz -C /usr/src/ruby --strip-components=1 \
         && rm ruby.tar.gz \
         && cd /usr/src/ruby \
-        && patch -p0 < /tmp/ruby-2.2-patch \
         && autoconf \
         && ./configure --disable-install-doc \
         && make -j"$(nproc)" \
@@ -30,7 +26,6 @@ RUN apt-get update \
         && apt-get install -y libssl-dev \
         && rm -rf /var/lib/apt/lists/* \
         && gem update --system $RUBYGEMS_VERSION \
-        && rm /tmp/ruby-2.2-patch \
         && rm -r /usr/src/ruby
 
 # install things globally, for great justice
