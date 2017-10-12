@@ -33,7 +33,7 @@
 - [`qixtand/debian-wheezy-ruby:2.3.5` (*debian/wheezy/ruby/2.3/Dockerfile*)](https://github.com/qixtand/qixtand/blob/89971f6e7e502b98788d94fe3ac9a31d9b689625/ruby/2.3/debian/wheezy/Dockerfile)
 
 ## Ruby 2.4
-
+- [`qixtand/debian-wheezy-ruby:2.4.0` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/deca347bb31877d48d2e8b169c10171697f3b1be/ruby/2.4/debian/wheezy/Dockerfile)
 
 # Quick reference
 -	**Where to file issues**:
