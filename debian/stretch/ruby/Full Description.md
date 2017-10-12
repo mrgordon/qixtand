@@ -34,6 +34,7 @@
 
 ## Ruby 2.4
 - [`qixtand/debian-stretch-ruby:2.4.0` (*debian/stretch/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/deca347bb31877d48d2e8b169c10171697f3b1be/ruby/2.4/debian/stretch/Dockerfile)
+- [`qixtand/debian-stretch-ruby:2.4.1` (*debian/stretch/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/0ee106a8fe580d910569a3899a5e01b5f09211c6/ruby/2.4/debian/stretch/Dockerfile)
 
 # Quick reference
 -	**Where to file issues**:
