@@ -37,6 +37,9 @@
 - [`qixtand/debian-jessie-ruby:2.4.1` (*debian/jessie/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/0ee106a8fe580d910569a3899a5e01b5f09211c6/ruby/2.4/debian/jessie/Dockerfile)
 - [`qixtand/debian-jessie-ruby:2.4.2` (*debian/jessie/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/ee06f56e2e58aad914320228c91f21c7d153214e/ruby/2.4/debian/jessie/Dockerfile)
 
+## Ruby 2.5
+- [`qixtand/debian-jessie-ruby:2.5.0-preview1` (*debian/jessie/ruby/2.5/Dockerfile*)](https://github.com/qixtand/qixtand/blob/2082890f18c29efb44870bf7d723a00e3d88f78f/ruby/2.5/debian/jessie/Dockerfile)
+
 # Quick reference
 -	**Where to file issues**:
 	[https://github.com/qixtand/qixtand/issues](https://github.com/qixtand/qixtand/issues)
