@@ -33,12 +33,12 @@
 - [`qixtand/debian-wheezy-ruby:2.3.5` (*debian/wheezy/ruby/2.3/Dockerfile*)](https://github.com/qixtand/qixtand/blob/89971f6e7e502b98788d94fe3ac9a31d9b689625/ruby/2.3/debian/wheezy/Dockerfile)
 
 ## Ruby 2.4
-- [`qixtand/debian-wheezy-ruby:2.4.0` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/deca347bb31877d48d2e8b169c10171697f3b1be/ruby/2.4/debian/wheezy/Dockerfile)
-- [`qixtand/debian-wheezy-ruby:2.4.1` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/0ee106a8fe580d910569a3899a5e01b5f09211c6/ruby/2.4/debian/wheezy/Dockerfile)
-- [`qixtand/debian-wheezy-ruby:2.4.2` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/ee06f56e2e58aad914320228c91f21c7d153214e/ruby/2.4/debian/wheezy/Dockerfile)
+- [`qixtand/debian-wheezy-ruby:2.4.0` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/deca347bb31877d48d2e8b169c10171697f3b1be/debian/wheezy/ruby/2.4/Dockerfile)
+- [`qixtand/debian-wheezy-ruby:2.4.1` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/0ee106a8fe580d910569a3899a5e01b5f09211c6/debian/wheezy/ruby/2.4/Dockerfile)
+- [`qixtand/debian-wheezy-ruby:2.4.2` (*debian/wheezy/ruby/2.4/Dockerfile*)](https://github.com/qixtand/qixtand/blob/ee06f56e2e58aad914320228c91f21c7d153214e/debian/wheezy/ruby/2.4/Dockerfile)
 
 ## Ruby 2.5
-- [`qixtand/debian-wheezy-ruby:2.5.0-preview1` (*debian/wheezy/ruby/2.5/Dockerfile*)](https://github.com/qixtand/qixtand/blob/2082890f18c29efb44870bf7d723a00e3d88f78f/ruby/2.5/debian/wheezy/Dockerfile)
+- [`qixtand/debian-wheezy-ruby:2.5.0-preview1` (*debian/wheezy/ruby/2.5/Dockerfile*)](https://github.com/qixtand/qixtand/blob/2082890f18c29efb44870bf7d723a00e3d88f78f/debian/wheezy/ruby/2.5/Dockerfile)
 
 # Quick reference
 -	**Where to file issues**:
