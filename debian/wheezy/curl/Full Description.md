@@ -1,6 +1,6 @@
 # Tags and respective Dockerfile links
 
-- [`qixtand/debian-wheezy-curl` (*debian/wheezy/curl/Dockerfile*)](https://github.com/qixtand/qixtand/blob/c8793c368bc96e8745e9ac03c527d1b9675fc1dd/debian/wheezy/curl/Dockerfile)
+- [`qixtand/debian-wheezy-curl` (*debian/wheezy/curl/Dockerfile*)](https://github.com/qixtand/qixtand/blob/master/debian/wheezy/curl/Dockerfile)
 
 # Quick reference
 -	**Where to file issues**:
