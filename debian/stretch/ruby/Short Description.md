@@ -1,1 +1,1 @@
-Ruby built on the Debian 9 ("Stretch") base.
+Ruby built on the Debian 8 ("Jessie") base.

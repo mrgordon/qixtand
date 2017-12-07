@@ -1,1 +1,1 @@
-Ruby built on the Debian 7 ("Wheezy") base.
+Ruby built on the Debian 8 ("Jessie") base.
